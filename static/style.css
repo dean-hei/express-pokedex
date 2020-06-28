@@ -37,9 +37,8 @@ nav a:hover {
 .well { /* contains a pokemon */
     background: white;
     border-radius: 10px;
-    width: 30%;
-    float: left;
-    margin: 1%;
+    width: 250px;
+    margin: 5px;
 }
 .showOne {
     background: url(Pokedex.png);
@@ -71,6 +70,28 @@ img {
 .btn-red {
     background: greenyellow;
 
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.moves {
+    width: 100%;
+    background: white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 800px;
+}
+.moves p {
+    margin: 5px;
 }
 
 

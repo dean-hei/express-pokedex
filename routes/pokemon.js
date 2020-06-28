@@ -49,7 +49,7 @@ router.get('/:id', function(req, res) {
     // Use request to call the API
     axios.get(pokemonUrl).then( function(apiResponse) {
       var pokeData = apiResponse.data;
-      console.log(pokeData);
+      console.log("AILITIES", pokeData.abilities);
       res.render('showOne', {name:pokemon.name, pokemon:pokeData} );
     });
   }).catch(err => {
